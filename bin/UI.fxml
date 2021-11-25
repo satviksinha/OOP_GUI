@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.8" prefHeight="803.0" prefWidth="1186.0" style="-fx-background-image: url('file:/C:/Users/Hp/Desktop/bg8.jpg'); -fx-background-size: cover; -fx-background-position: ;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
+   <children>
+      <VBox layoutX="231.0" layoutY="6.0" prefHeight="798.0" prefWidth="271.0" AnchorPane.leftAnchor="231.0">
+         <children>
+            <TextField fx:id="tField1" style="-fx-background-radius: 20;">
+               <VBox.margin>
+                  <Insets top="200.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="tField2" style="-fx-background-radius: 20;">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="tField3" style="-fx-background-radius: 20;">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="tField4" style="-fx-background-radius: 20;">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </VBox>
+      <VBox layoutX="480.0" layoutY="14.0" prefHeight="784.0" prefWidth="317.0">
+         <children>
+            <Text fill="WHITE" scaleX="1.5" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Source City" x="200.0">
+               <VBox.margin>
+                  <Insets left="70.0" top="200.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" scaleX="1.5" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Destination City" x="200.0">
+               <VBox.margin>
+                  <Insets left="70.0" top="60.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" scaleX="1.5" scaleY="1.5" scaleZ="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Travel Date(YYYY MM DD)" x="200.0">
+               <VBox.margin>
+                  <Insets left="82.0" top="60.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" scaleX="1.5" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="No. of tickets" x="200.0">
+               <VBox.margin>
+                  <Insets left="70.0" top="64.0" />
+               </VBox.margin>
+            </Text>
+            <Button fx:id="submitButton" mnemonicParsing="false" onAction="#submitDetails" style="-fx-background-color: #c9a7db; -fx-background-radius: 20;" text="SUBMIT" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="30.0" top="130.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Consolas" size="38.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </VBox>
+      <VBox layoutX="861.0" layoutY="6.0" prefHeight="798.0" prefWidth="287.0">
+         <children>
+            <TextField fx:id="tField5" style="-fx-background-radius: 20;">
+               <VBox.margin>
+                  <Insets top="200.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="tField6" style="-fx-background-radius: 20;">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </TextField>
+            <DatePicker fx:id="datePicker">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </DatePicker>
+            <TextField fx:id="tField8" style="-fx-background-radius: 20;">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </VBox>
+      <VBox prefHeight="798.0" prefWidth="174.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="WHITE" scaleX="1.5" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Passenger Name" x="200.0">
+               <VBox.margin>
+                  <Insets left="50.0" top="210.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" scaleX="1.5" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Aadhaar No." x="200.0">
+               <VBox.margin>
+                  <Insets left="40.0" top="60.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" scaleX="1.5" scaleY="1.5" scaleZ="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender:" x="200.0">
+               <VBox.margin>
+                  <Insets left="30.0" top="60.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="WHITE" scaleX="1.5" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" x="200.0">
+               <VBox.margin>
+                  <Insets left="30.0" top="64.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+      </VBox>
+      <HBox prefHeight="158.0" prefWidth="1186.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.8" prefHeight="803.0" prefWidth="1186.0" style="-fx-background-image: url('file:/C:/Users/Hp/Desktop/bg8.jpg'); -fx-background-size: cover; -fx-background-position: ;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
+   <children>
+      <Button layoutX="453.0" layoutY="320.0" mnemonicParsing="false" onAction="#switchToBookTicket" style="-fx-background-radius: 20;" text="Book a Ticket">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="531.0" layoutY="451.0" mnemonicParsing="false" onAction="#switchToLogin" style="-fx-background-radius: 20;" text="Login">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
